@@ -1,0 +1,69 @@
+{
+  "checked_date": "2026-10-22",
+  "assignment": {
+    "path": "Project3_CV_2026_v5.pdf",
+    "bytes": 6129924,
+    "sha256": "0ac3a24fa2b2c1c22df53c0bd96adfa27b6a6f55b663d57cbd8830bf2547ef64"
+  },
+  "competition": {
+    "slug": "penalty-kick-prediction-cs-gy-6643",
+    "url": "https://www.kaggle.com/competitions/penalty-kick-prediction-cs-gy-6643/overview",
+    "requirements_source": "Project3_CV_2026_v5.pdf, pages 8-12",
+    "live_section_text_verified": false,
+    "files_downloaded": false,
+    "file_api_status": 401,
+    "access_evidence": "outputs/setup/phase0_notes/sources/kaggle_access.json"
+  },
+  "environment": {
+    "os": "macOS 26.6.2 (25G83)",
+    "architecture": "arm64",
+    "python": "3.12.6",
+    "cpu": "Apple M4 Pro",
+    "logical_cpu_count": 12,
+    "ram_gib": 24,
+    "gpu": {
+      "hardware": "Apple M4 Pro, 16 GPU cores, Metal supported",
+      "system_torch": "2.11.0",
+      "mps_built": true,
+      "mps_available_in_inspected_process": false,
+      "cuda_available": false,
+      "project_torch_installed": false,
+      "note": "MPS unavailability may depend on process/sandbox; no GPU computation attempted."
+    }
+  },
+  "dataset": {
+    "directory": "Data/",
+    "status": "blocked_no_data",
+    "files": [],
+    "audit_report": "outputs/data_audit.json"
+  },
+  "layout_references": [
+    {
+      "repository": "https://github.com/rohitfarfad/-CV-Cell-Matching-x-Segmentation",
+      "commit": "8923d857e40e8904486f84a703c1010c233676a3",
+      "files_reviewed": [
+        "AGENTS.md",
+        "README.md",
+        "requirements.txt",
+        "requirements-setup.txt",
+        "root listing"
+      ]
+    },
+    {
+      "repository": "https://github.com/rohitfarfad/constellation-detector",
+      "commit": "3b397fd3534890c100ab5a0bbedf1697c1dfe4f4",
+      "files_reviewed": [
+        "AGENTS.md",
+        "requirements.txt",
+        "root listing"
+      ]
+    }
+  ],
+  "preserved_phase0_evidence": "outputs/setup/phase0_notes/ (historical; old paths describe the original layout)",
+  "notebooks": {
+    "questions_1_to_3": "Q1to3Solution.ipynb",
+    "kaggle_q4": "PenaltyKickPrediction.ipynb",
+    "code_policy": "All solution code is inline in its corresponding notebook; no external project Python imports."
+  },
+  "historical_helper_archive": "outputs/setup/pre_notebook_refactor.zip (not used by either notebook)"
+}

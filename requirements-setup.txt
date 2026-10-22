@@ -1,0 +1,5 @@
+# Optional download and PDF inspection tools
+-r requirements.txt
+kaggle==2.2.4
+pypdf==6.21.2
+PyMuPDF==1.26.7
